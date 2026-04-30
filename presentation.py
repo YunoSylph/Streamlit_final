@@ -395,22 +395,11 @@ def presentation_page() -> None:
         [data-testid="stSidebar"] {
             border-right: 1px solid #d6e9e9;
         }
-        .presentation-note {
-            border-left: 5px solid #0ABAB5;
-            padding: 0.75rem 1rem;
-            background: #f4fbfb;
-            color: #263336;
-            margin-bottom: 1rem;
-        }
         </style>
         """,
         unsafe_allow_html=True,
     )
     st.title("Презентация проекта")
-    st.markdown(
-        "<div class='presentation-note'>Обновленная визуальная версия: строгая структура, Tiffany-акцент, фактические метрики и графики из результата обучения.</div>",
-        unsafe_allow_html=True,
-    )
 
     with st.sidebar:
         st.header("Настройки")
