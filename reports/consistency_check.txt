@@ -1,0 +1,9 @@
+Проверка соответствия отчета фактическим результатам
+Файл отчета: C:\Users\Maksim Iuzhakov\Downloads\Streamlit_Final\Streamlit_final\reports\VKR_Report_Workers_Compensation.docx
+
+OK: best_model = XGBoost
+OK: best_mae = 6 148.30
+OK: best_rmse = 11 449.99
+OK: best_r2 = 0.2498
+OK: target_cap = 54 450.09
+OK: top_feature = InitialCaseEstimate

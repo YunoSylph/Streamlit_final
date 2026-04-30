@@ -1,0 +1,107 @@
+{
+  "best_model_name": "XGBoost",
+  "sample_size": 100000,
+  "data_shape": [
+    100000,
+    14
+  ],
+  "metrics": [
+    {
+      "Model": "XGBoost",
+      "MAE": 6148.298135048481,
+      "MSE": 131102373.69279966,
+      "RMSE": 11449.994484400404,
+      "R2": 0.24983942995976083
+    },
+    {
+      "Model": "Random Forest",
+      "MAE": 7204.418463753742,
+      "MSE": 141077086.53958258,
+      "RMSE": 11877.587572381126,
+      "R2": 0.1927646717813638
+    },
+    {
+      "Model": "Ridge Regression",
+      "MAE": 6661.199164991694,
+      "MSE": 142775376.02404913,
+      "RMSE": 11948.865051713034,
+      "R2": 0.18304715277788652
+    },
+    {
+      "Model": "Linear Regression",
+      "MAE": 6661.192181898445,
+      "MSE": 142775396.5788606,
+      "RMSE": 11948.865911828645,
+      "R2": 0.18304703516438592
+    }
+  ],
+  "feature_importance": [
+    {
+      "Feature": "InitialCaseEstimate",
+      "Importance": 0.4271075129508972
+    },
+    {
+      "Feature": "AccidentYear",
+      "Importance": 0.06651847809553146
+    },
+    {
+      "Feature": "Gender",
+      "Importance": 0.05634113401174545
+    },
+    {
+      "Feature": "Age",
+      "Importance": 0.052620306611061096
+    },
+    {
+      "Feature": "MaritalStatus",
+      "Importance": 0.04657978191971779
+    },
+    {
+      "Feature": "WeeklyPay",
+      "Importance": 0.040212661027908325
+    },
+    {
+      "Feature": "ReportingDelay",
+      "Importance": 0.03394000232219696
+    },
+    {
+      "Feature": "ClaimDescription",
+      "Importance": 0.03218783065676689
+    },
+    {
+      "Feature": "AccidentDayOfWeek",
+      "Importance": 0.031972985714673996
+    },
+    {
+      "Feature": "ClaimDescriptionLength",
+      "Importance": 0.029989536851644516
+    },
+    {
+      "Feature": "HoursWorkedPerWeek",
+      "Importance": 0.029429316520690918
+    },
+    {
+      "Feature": "AccidentMonth",
+      "Importance": 0.02892669104039669
+    },
+    {
+      "Feature": "ClaimDescriptionWords",
+      "Importance": 0.028216414153575897
+    },
+    {
+      "Feature": "PartTimeFullTime",
+      "Importance": 0.02511967532336712
+    },
+    {
+      "Feature": "DependentsOther",
+      "Importance": 0.024708596989512444
+    }
+  ],
+  "target_summary": {
+    "min": 20.0,
+    "median": 553.0,
+    "mean": 11559.430548499999,
+    "max": 3139046.0
+  },
+  "target_cap": 54450.085499999535
+}
